@@ -1,0 +1,35 @@
+# 🔐 Telegram Password Generator Bot
+
+This is a Telegram bot built with Python that generates secure, customizable passwords for users. It asks users a few simple questions—like length, inclusion of symbols or numbers—and generates a random password accordingly.
+
+## 🚀 Features
+
+- Asks user for desired password length (minimum 8 characters)
+- Option to include:
+  - Symbols (e.g., !@#$%^&)
+  - Numbers (e.g., 123456)
+- Randomly generates a secure password based on preferences
+- Fully asynchronous using `python-telegram-bot v20+`
+
+## 🛠️ Tech Stack
+
+- Python 3.10+
+- [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) (async version)
+- `asyncio` for async event handling
+- `dotenv` for environment variable management
+
+## 📦 Installation
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/yourusername/password-generator-bot.git
+   cd password-generator-bot
+
+2. **Install Dependencies:**
+    pip install -r requirements.txt
+
+3. **Create an .env file:**
+    TELEGRAM_API_ID=your_bot_token_here
+
+4. **Run the bot:**
+    python bot.py
