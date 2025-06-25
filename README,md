@@ -22,7 +22,7 @@ This is a Telegram bot built with Python that generates secure, customizable pas
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/yourusername/password-generator-bot.git
+   git clone https://github.com/0xfoenix/password-generator-bot.git
    cd password-generator-bot
 
 2. **Install Dependencies:**
